@@ -18,6 +18,18 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+~~~
+a=int(input())
+b=int(input())
+temp=a
+a=b
+b=temp
+print("Swapped values are: {} {}".format(a,b))
+~~~
+
+##OUTPUT:
+![variables](./n-variable.png)
+
 
 
 
